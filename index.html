@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SMTFinder</title>
+  <meta name="description" content="SMTFinder helps traders spot SMT divergence across sessions, cycles, and higher timeframes." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body data-theme="dark">
+  <div class="page-bg">
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+  </div>
+
+  <header class="site-header container">
+    <div class="brand">
+      <div class="brand-icon">
+        <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path d="M7 17V7M12 14V10M17 18V6M4 20H20M5.5 7.5H8.5M10.5 10.5H13.5M15.5 6.5H18.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+        </svg>
+      </div>
+      <div>
+        <div class="brand-title">SMTFinder</div>
+        <div class="brand-subtitle">SMT divergence indicator</div>
+      </div>
+    </div>
+
+    <nav class="nav">
+      <a href="#pricing">Pricing</a>
+      <a href="#features">Features</a>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+        <span class="theme-icon sun">☀</span>
+        <span class="theme-icon moon">☾</span>
+      </button>
+      <a class="btn btn-primary btn-sm" target="_blank" rel="noreferrer" href="https://whop.com/joined/smtfinder/products/smt-finder/">Get Access</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container">
+      <div class="hero-copy">
+        <div class="pill">Built for SMT traders</div>
+        <h1>Read market divergence faster with <span>SMTFinder</span></h1>
+        <p>
+          A focused SMT divergence indicator that helps you spot relative strength and weakness across intraday cycles
+          and higher-timeframe structure without manually comparing multiple charts.
+        </p>
+
+        <div class="hero-actions">
+          <a class="btn btn-primary" target="_blank" rel="noreferrer" href="https://whop.com/joined/smtfinder/products/smt-finder/">Subscribe for $19.99/mo</a>
+          <a class="btn btn-secondary" href="#features">See features</a>
+        </div>
+
+        <div class="stat-grid">
+          <div class="stat-card">
+            <div class="stat-title">Intraday + HTF</div>
+            <div class="stat-subtitle">Complete SMT coverage</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-title">Two comparison symbols</div>
+            <div class="stat-subtitle">Flexible market confirmation</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-title">$19.99/mo</div>
+            <div class="stat-subtitle">Monthly subscription</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-panel glass">
+        <div class="top-mini-card">
+          <div>
+            <div class="muted">Indicator</div>
+            <div class="card-heading">SMTFinder</div>
+          </div>
+          <div class="tag">Live structure view</div>
+        </div>
+
+        <div class="hero-panel-grid">
+          <div class="chart-card inner-card">
+            <div class="row between">
+              <div>
+                <div class="muted">Chart overview</div>
+                <div class="card-heading">Intraday SMT map</div>
+              </div>
+              <div class="legend">
+                <span><i class="dot red"></i> Bearish</span>
+                <span><i class="dot blue"></i> Bullish</span>
+              </div>
+            </div>
+
+            <div class="chart-box">
+              <div class="chart-label chart-label-red">Weekly Bearish SMT</div>
+              <div class="chart-label chart-label-blue">30m Bullish SMT</div>
+              <svg class="chart-svg" viewBox="0 0 800 340" preserveAspectRatio="none">
+                <polyline points="25,230 90,205 145,215 205,170 260,182 320,135 385,155 440,126 500,140 560,96 620,112 685,74 740,98 790,62"
+                  fill="none" stroke="currentColor" stroke-width="3.5" />
+                <line x1="205" y1="170" x2="320" y2="135" stroke="#ef4444" stroke-width="2.5" stroke-dasharray="6 6"/>
+                <line x1="500" y1="140" x2="620" y2="112" stroke="#3b82f6" stroke-width="2.5" stroke-dasharray="6 6"/>
+                <circle cx="320" cy="135" r="6" fill="#ef4444"/>
+                <circle cx="620" cy="112" r="6" fill="#3b82f6"/>
+              </svg>
+            </div>
+          </div>
+
+          <div class="side-stack">
+            <div class="inner-card">
+              <div class="row">
+                <div class="icon-chip cyan">~</div>
+                <div>
+                  <div class="muted">Coverage</div>
+                  <div class="card-heading small">Intraday + HTF</div>
+                </div>
+              </div>
+              <p class="card-copy">Sessions, cycles, and macro structure in one streamlined workflow.</p>
+            </div>
+
+            <div class="inner-card">
+              <div class="row">
+                <div class="icon-chip violet">□</div>
+                <div>
+                  <div class="muted">Summary</div>
+                  <div class="card-heading small">Clean SMT table</div>
+                </div>
+              </div>
+              <p class="card-copy">Quick visual read on bullish and bearish SMTs without overloading the chart.</p>
+            </div>
+
+            <div class="price-card">
+              <div class="muted-light">Monthly subscription</div>
+              <div class="price-line">$19.99 <span>/mo</span></div>
+              <p>Simple monthly access.</p>
+              <a class="btn btn-white full" target="_blank" rel="noreferrer" href="https://whop.com/joined/smtfinder/products/smt-finder/">Subscribe now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="section container">
+      <div class="section-intro center">
+        <div class="pill subtle">Clean, fast, and easy to read</div>
+        <h2>Everything you need to read SMT like a professional</h2>
+        <p>SMTFinder is designed to reduce manual chart comparison and give you cleaner divergence context across the windows that matter most.</p>
+      </div>
+
+      <div class="feature-grid">
+        <article class="feature-card"><div class="feature-icon">⌖</div><h3>Precise SMT detection</h3><p>Tracks divergence between your chart symbol and up to two correlated markets with clear bullish and bearish SMT visualization.</p></article>
+        <article class="feature-card"><div class="feature-icon">◷</div><h3>Intraday cycle intelligence</h3><p>Detects session, 90m, 30m, 10m, and 3m SMTs so you can align entries with real market structure instead of guesswork.</p></article>
+        <article class="feature-card"><div class="feature-icon">▤</div><h3>HTF confirmation built in</h3><p>Daily, weekly, monthly, quarterly, and yearly SMT logic helps you frame larger directional bias with cleaner context.</p></article>
+        <article class="feature-card"><div class="feature-icon">◫</div><h3>Clean overlap filtering</h3><p>Reduces chart clutter by prioritizing the most meaningful SMT when multiple signals stack near the same area.</p></article>
+        <article class="feature-card"><div class="feature-icon">⌁</div><h3>Visual clarity</h3><p>Lines, labels, and summary tables make SMT structure readable at a glance without needing to manually compare instruments.</p></article>
+        <article class="feature-card"><div class="feature-icon">🛡</div><h3>Built for serious execution</h3><p>Designed for traders who want fast reads on relative strength and weakness across intraday and higher-timeframe structure.</p></article>
+      </div>
+    </section>
+
+    <section class="section container split-section">
+      <div class="large-card">
+        <div class="eyebrow">Why traders use it</div>
+        <h2>Purpose-built for modern SMT workflows</h2>
+        <p>SMTFinder is built to make divergence easier to read across sessions, cycles, and higher timeframes without needing multiple charts open all the time.</p>
+
+        <div class="check-grid">
+          <div class="check-item"><span>✓</span> Session SMTs across Asia, London, Morning, and Afternoon</div>
+          <div class="check-item"><span>✓</span> 90m, 30m, 10m, and 3m cycle SMT detection</div>
+          <div class="check-item"><span>✓</span> Daily, Weekly, Monthly, Quarterly, and Yearly HTF SMTs</div>
+          <div class="check-item"><span>✓</span> Two comparison symbols supported</div>
+          <div class="check-item"><span>✓</span> Light and dark mode</div>
+          <div class="check-item"><span>✓</span> Clean visual layout</div>
+        </div>
+      </div>
+
+      <div id="pricing" class="pricing-shell">
+        <div class="pricing-badge">Monthly pricing</div>
+        <h2>Get SMTFinder</h2>
+        <p>A focused SMT indicator built to keep your workflow clear and simple.</p>
+
+        <div class="pricing-panel">
+          <div class="pricing-label">Monthly price</div>
+          <div class="pricing-value">$19.99 <span>/month</span></div>
+          <div class="pricing-copy">Full access for $19.99 per month.</div>
+
+          <div class="pricing-list">
+            <div>✓ Intraday cycle SMT detection</div>
+            <div>✓ HTF SMT confirmation</div>
+            <div>✓ Clean overlap handling</div>
+            <div>✓ Dark and light mode</div>
+          </div>
+
+          <a class="btn btn-white full" target="_blank" rel="noreferrer" href="https://whop.com/joined/smtfinder/products/smt-finder/">Start subscription</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container steps-section">
+      <article class="step-card">
+        <div class="step-icon">⌯</div>
+        <div class="step-label">Step 1</div>
+        <h3>Read the setup</h3>
+        <p>Let SMTFinder surface divergence between correlated markets before you commit to a thesis.</p>
+      </article>
+      <article class="step-card">
+        <div class="step-icon">◷</div>
+        <div class="step-label">Step 2</div>
+        <h3>Align the window</h3>
+        <p>Use session and cycle SMTs to time intraday opportunities with stronger structural context.</p>
+      </article>
+      <article class="step-card">
+        <div class="step-icon">▤</div>
+        <div class="step-label">Step 3</div>
+        <h3>Confirm the bigger picture</h3>
+        <p>Use HTF SMTs to frame whether short-term divergence fits broader daily, weekly, or monthly bias.</p>
+      </article>
+    </section>
+
+    <section class="section container faq-section">
+      <div class="faq-shell">
+        <div class="pill subtle">FAQ</div>
+        <h2>Common questions</h2>
+
+        <div class="faq-list">
+          <div class="faq-item"><h3>What does SMTFinder detect?</h3><p>SMTFinder detects SMT divergence by comparing your active chart symbol against one or two correlated markets. It highlights when one market takes a key high or low and the other fails to confirm.</p></div>
+          <div class="faq-item"><h3>Who is this for?</h3><p>It is built for traders who use SMT, liquidity concepts, market structure, or ICT-style confirmation and want cleaner execution context without manual chart comparison.</p></div>
+          <div class="faq-item"><h3>Does it support higher timeframe SMTs too?</h3><p>Yes. In addition to intraday session and cycle SMTs, SMTFinder includes HTF SMT detection for daily, weekly, monthly, quarterly, and yearly structure.</p></div>
+          <div class="faq-item"><h3>Is this a monthly subscription?</h3><p>Yes. SMTFinder is available for $19.99 per month.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container">
+      <div class="cta-shell">
+        <div class="pill">Monthly access</div>
+        <h2>Upgrade your SMT workflow with monthly access</h2>
+        <p>SMTFinder brings session structure, cycle divergence, and higher-timeframe confirmation into one indicator for $19.99 per month.</p>
+        <div class="hero-actions centered">
+          <a class="btn btn-primary" target="_blank" rel="noreferrer" href="https://whop.com/joined/smtfinder/products/smt-finder/">Start subscription</a>
+          <a class="btn btn-secondary" href="#features">View features</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer container">
+    <div>© 2026 SMTFinder.</div>
+    <div class="footer-links">
+      <a href="#features">Features</a>
+      <a href="#pricing">Pricing</a>
+      <a target="_blank" rel="noreferrer" href="https://whop.com/joined/smtfinder/products/smt-finder/">Subscribe</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
